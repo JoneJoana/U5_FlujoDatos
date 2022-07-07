@@ -6,9 +6,11 @@ public class U5_EJ12App {
 		/**
 		 * String contraseña, pedir contraseña 3 intentos.
 		 * acierto --> mostrar enhorabuena 
+		 * 
+		 * de extra añado info para user sobre sus intentos
 		 */
 		String contraseña = "password2022";
-		int intento = 3; 
+		int intento = 3; //ira restando intentos ya que lo aprovecho para darle info al user
 		boolean acierto = false;
 		
 		do{
