@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class U5_EJ5 {
+public class U5_EJ5App {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
