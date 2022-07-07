@@ -30,7 +30,7 @@ public class U5_EJ10App {
 		
 		
 		/**
-		 * BUCLE CASO 2 
+		 * BUCLE CASO 2:
 		 * introduciendo nombre del producto y precio
 		 * 
 		 * for(int i=1;i<=numVentas;i++) {
