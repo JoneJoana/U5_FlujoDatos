@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class U5_EJ11 {
+public class U5_EJ11App {
 
 	public static void main(String[] args) {
 		//pedir dia semana, decir si es laboral o no. switch
