@@ -10,7 +10,7 @@ public class U5_EJ11App {
 		switch(dia){
 			case "lunes":
 			case "martes": 
-			case "miercoles":
+			case "miercoles": //juntamos las opciones que daran un mismo resultado
 			case "jueves":
 			case "viernes":			
 				System.out.println(dia.toUpperCase()+" es un dia laboral");

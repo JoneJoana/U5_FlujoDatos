@@ -19,7 +19,7 @@ public class U5_EJ12App {
 				acierto = true; //rompemos condicion para salir ya que se ha acertado
 				JOptionPane.showMessageDialog(null,"Enhorabuena. Has acertado.");
 			}else{				
-				intento--;	//restamos un intento posible			
+				intento--;		
 				if(intento>0) { //mientras queden intentos por validar contraseña mostrara pop-up
 					JOptionPane.showMessageDialog(null,"Prueba otra vez. Te quedan "+intento+" intentos.");					
 				}else{ //intento == 0 por tanto nos rompe condicion y acabara despues del pop-up

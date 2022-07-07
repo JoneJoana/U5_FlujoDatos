@@ -52,9 +52,12 @@ public class CalculadoraInversaApp {
 			case "%":
 				result = num1%num2;
 				break;
+			default:
+				System.out.println("No has introducido operacion aceptada");
+				return;  //finalizamos para que no se abra pop-up
 		}
 		
-		if(result!=-1) { //si el valor se ha actualizado imprimira valor de esta variable, sino con resultDecimal
+		if(result!=-1) { //si el valor se ha actualizado imprimira valor de esta variable, sino resultDecimal
 			JOptionPane.showMessageDialog(null,"El resultado de la operacion es "+result);
 		}else{ 
 			JOptionPane.showMessageDialog(null,"El resultado de la operacion es "+resultDecimal);
